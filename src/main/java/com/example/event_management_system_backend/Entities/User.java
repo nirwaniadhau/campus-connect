@@ -28,7 +28,7 @@ public class User {
     @Enumerated(EnumType.STRING)
     private Role role;
 
-    private boolean enabled = true;
+    private Boolean enabled = true;
 
     @CreationTimestamp
     private LocalDateTime createdAt;

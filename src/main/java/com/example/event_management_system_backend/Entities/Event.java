@@ -22,8 +22,8 @@ public class Event {
     private String title;
     private String description;
     private String location;
-    private int maxSeats;
-    private int availableSeats;
+    private Integer maxSeats;
+    private Integer availableSeats;
     private LocalDateTime registrationDeadline;
     private BigDecimal fee;
     @CreationTimestamp
